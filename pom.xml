@@ -27,6 +27,11 @@ mainly to make it easier to upgrade code to Jackson, using automated conversions
   </properties>
 
   <dependencies>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+      <scope>provided</scope>
+    </dependency>
     <!-- Extends Jackson mapper -->
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
